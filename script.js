@@ -13,7 +13,7 @@ stopVoiceBtn.style.display = "none";
 voiceBtn.insertAdjacentElement("afterend", stopVoiceBtn);
 
 // API URL and User Data
-const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDJWfRw1jmzsNkNTGrPVzCQibvhfSWOLwg";
+const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=Your_API_Key";
 const user = {
   message: null,
   file: { mime_type: null, data: null },
